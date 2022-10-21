@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Add Data</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body class="col-md-4 offset-md-4">
+	<a href="index.php" class="btn btn-secondary">Regresar</a>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+		<div class="form-group">
+			<label for="Nombres">Nombres</label>
+			<input type="text" name="nombres" class="form-control" id="nombres" placeholder="Ingresar los nombres">
+		</div>
+		<div class="form-group">
+			<label for="apellidos">Apellidos</label>
+			<input type="text" name="apellidos" class="form-control" id="apellidos" placeholder="Ingresar los apellidos">
+		</div>
+		<div class="form-group">
+			<label for="edad">Edad</label>
+			<input type="number" name="edad" class="form-control" id="edad" placeholder="Ingresar la edad">
+		</div>
+		<div class="form-group">
+			<label for="correo">Correo</label>
+			<input type="email" name="correo" class="form-control" id="correo" placeholder="Ingresar tu correo">
+		</div>
+		<div class="form-group">
+			<label for="domicilio">Domicilio</label>
+			<input type="text" name="domicilio" class="form-control" id="domicilio" placeholder="Ingresar el domicilio">
+		</div>
+		<div class="form-group">
+			<label for="conocido_por">Conocido por...</label>
+			<input type="text" name="conocido_por" class="form-control" id="conocido_por" placeholder="Ingresar el conocido por">
+		</div>
+		<hr/>
+		<input type="submit" name="Submit" value="Add" class="btn btn-success">
+	</form>
+</body>
+</html>
+
